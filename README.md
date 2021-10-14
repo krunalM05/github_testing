@@ -12,3 +12,12 @@ To view other ways of installing it visit the [Git official site](http://git-scm
 $ git config --global user.name "User Name"
 
 $ git config --global user.email "email"
+
+## Add Existing Project
+- create repository name same to your existing project_name
+- open your existing project in git bash
+- type command: git init 
+- type command: git add . (it will add all your project files to your repositories)
+- type command: git remote add origin "Your_github_repository_link"
+- type cammand: git branch -M main
+- type cammand: git push -u origin main
