@@ -21,3 +21,13 @@ $ git config --global user.email "email"
 - type command: git remote add origin "Your_github_repository_link"
 - type cammand: git branch -M main
 - type cammand: git push -u origin main
+
+## Add Project Through a Cloning
+- create new repository and copy its link on github
+- create folder with name same as repository name 
+- open this folder in git bash
+- type command: git clone "link_of_your_repository" 
+- type command: git add "file_name" (it will add the file that u created in your folder for push)
+- type command: git commit -m "your Commit Number" file_name.extension
+- type cammand: git push -u origin main
+- type cammand: git status (to see the status of your repository)
