@@ -18,6 +18,7 @@ $ git config --global user.email "email"
 - open your existing project in git bash
 - type command: git init 
 - type command: git add . (it will add all your project files to your repositories)
+- type command: git commit -m "First Commit"
 - type command: git remote add origin "Your_github_repository_link"
 - type cammand: git branch -M main
 - type cammand: git push -u origin main
